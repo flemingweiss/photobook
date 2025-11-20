@@ -1,0 +1,29 @@
+.taped-image-container {
+  position: relative;
+  cursor: pointer;
+  filter: drop-shadow(4px 8px 12px rgba(0, 0, 0, 0.3));
+  transition: filter 0.3s ease;
+}
+
+.taped-image-container:hover {
+  filter: drop-shadow(8px 16px 24px rgba(0, 0, 0, 0.4));
+  z-index: 10;
+}
+
+.taped-image {
+  position: relative;
+  width: 100%;
+}
+
+.taped-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.taped-image-tape {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.85;
+}

@@ -1,0 +1,182 @@
+.album-pages-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 2000px;
+  position: relative;
+}
+
+.album-double-page {
+  display: flex;
+  position: relative;
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 10px 30px rgba(0, 0, 0, 0.3);
+  transform-style: preserve-3d;
+}
+
+.album-page {
+  width: 500px;
+  height: 700px;
+  background: url('../textures/paper-texture.svg') center/cover;
+  background-color: #f4e8d8;
+  position: relative;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.album-spine {
+  width: 40px;
+  height: 700px;
+  background: linear-gradient(to right,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  box-shadow:
+    inset 2px 0 5px rgba(0, 0, 0, 0.3),
+    inset -2px 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.left-page {
+  box-shadow: inset -3px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-page {
+  box-shadow: inset 3px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.polaroid-wrapper {
+  position: absolute;
+}
+
+.page-text {
+  position: absolute;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #5b5b5b;
+  max-width: 80%;
+}
+
+.page-decoration {
+  position: absolute;
+  font-size: 2rem;
+}
+
+/* Page corners fold effect */
+.album-page::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.left-page::before {
+  right: 0;
+  border-width: 0 0 20px 20px;
+  border-color: transparent transparent #d4c4a8 transparent;
+}
+
+.right-page::before {
+  left: 0;
+  border-width: 0 20px 20px 0;
+  border-color: transparent #d4c4a8 transparent transparent;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .album-page {
+    width: 400px;
+    height: 560px;
+    padding: 30px;
+  }
+
+  .album-spine {
+    width: 30px;
+    height: 560px;
+  }
+
+  .page-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .album-page {
+    width: 350px;
+    height: 490px;
+    padding: 25px;
+  }
+
+  .album-spine {
+    width: 20px;
+    height: 490px;
+  }
+
+  .page-text {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile: Single page view */
+@media (max-width: 768px) {
+  .album-double-page {
+    flex-direction: row;
+  }
+
+  .album-page {
+    width: 85vw;
+    max-width: 500px;
+    height: 90vh;
+    max-height: 700px;
+    padding: 30px;
+  }
+
+  .single-page {
+    box-shadow:
+      0 15px 40px rgba(0, 0, 0, 0.3),
+      0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .album-spine {
+    display: none;
+  }
+
+  .right-page {
+    display: none;
+  }
+
+  .page-text {
+    font-size: 1.5rem;
+  }
+
+  .page-decoration {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .album-page {
+    width: 90vw;
+    height: 85vh;
+    padding: 25px;
+  }
+
+  .page-text {
+    font-size: 1.4rem;
+  }
+
+  .page-decoration {
+    font-size: 2.3rem;
+  }
+}
