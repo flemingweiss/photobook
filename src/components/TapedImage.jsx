@@ -33,7 +33,7 @@ function TapedImage({ image, rotation = 0, width = '280px', tapeVariant = 1 }) {
     >
       {/* Tape decoration */}
       <img
-        src={`/src/textures/tape-${tapeVariant}.svg`}
+        src={`/textures/tape-${tapeVariant}.svg`}
         className="taped-image-tape"
         style={{
           ...tapePos,

@@ -39,7 +39,7 @@ function Polaroid({ image, caption, rotation = 0, size = 'medium', tapeVariant =
     >
       {/* Tape decoration */}
       <img
-        src={`/src/textures/tape-${tapeVariant}.svg`}
+        src={`/textures/tape-${tapeVariant}.svg`}
         className="polaroid-tape"
         style={{
           ...tapePos,
