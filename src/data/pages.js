@@ -32,7 +32,7 @@ export const pages = [
         position: { top: '7%', right: '55%' }
       },
       {
-        image: 'src/assets/train.png',
+        image: '/assets/train.png',
         rotation: 0,
         width: '180px',
         tapeVariant: 1,
@@ -101,7 +101,7 @@ export const pages = [
     ],
     tapedImages: [
       {
-        image: 'src/assets/langos.png',
+        image: '/assets/langos.png',
         rotation: -15,
         width: '150px',
         tapeVariant: 1,
