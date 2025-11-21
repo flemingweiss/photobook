@@ -71,6 +71,17 @@
   font-size: 2rem;
 }
 
+.page-title {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.8rem;
+  color: #4a4a4a;
+  text-align: center;
+  z-index: 10;
+}
+
 /* Page corners fold effect */
 .album-page::before {
   content: '';

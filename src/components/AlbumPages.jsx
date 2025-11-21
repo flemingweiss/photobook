@@ -89,6 +89,12 @@ function AlbumPages() {
 
     return (
       <div className="page-content">
+        {page.title && (
+          <div className="page-title handwriting">
+            {page.title}
+          </div>
+        )}
+
         {page.polaroids?.map((polaroid, index) => (
           <div
             key={index}
@@ -131,6 +137,16 @@ function AlbumPages() {
             {page.decoration}
           </div>
         )}
+
+        {page.decorations?.map((deco, index) => (
+          <div
+            key={`deco-${index}`}
+            className="page-decoration"
+            style={deco.position}
+          >
+            {deco.emoji}
+          </div>
+        ))}
       </div>
     )
   }
