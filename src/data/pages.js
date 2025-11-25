@@ -56,7 +56,7 @@ export const pages = [
         position: { top: '15%', left: '15%' }
       }
     ],
-    text: 'Nach der Landung aber erstmal einen Cappuccino, ohne den geht hier gar nichts!',
+    text: 'Nach der Landung muss erstmal ganz schnell ein Siebträger Cappuccino getrunken werden.',
     textPosition: { bottom: '5%', left: '15%', fontSize: '1.8rem', transform: 'rotate(3deg)' }
 
   },
@@ -118,14 +118,14 @@ export const pages = [
     polaroids: [
       {
         image: '/assets/14.png',
-        caption: '"Fleming ich will nur bummeln"',
+        caption: '"Fleming, komm wir kaufen Wassermelone"',
         rotation: -4,
         size: 'large',
         tapeVariant: 1,
         position: { top: '1%', left: '10%' }
       },{
         image: '/assets/15.png',
-        caption: '4h später',
+        caption: '1h, 10kg Obst und 2 Wasserkästen später',
         rotation: 10,
         size: 'large',
         tapeVariant: 2,
@@ -145,11 +145,19 @@ export const pages = [
         rotation: -3,
         size: 'large',
         tapeVariant: 3,
-        position: { bottom: '25%', left: '10%' }
+        position: { bottom: '55%', left: '10%' }
+      },
+      {
+        image: '/assets/water.png',
+        caption: '"Denkst du hier gibts Seemonster?"',
+        rotation: 10,
+        size: 'medium',
+        tapeVariant: 3,
+        position: { bottom: '0%', left: '35%' }
       }
     ],
     text: 'Was das wohl sein könnte? Hmm...',
-    textPosition: { bottom: '10%', left: '20%', fontSize: '1.4rem', transform: 'rotate(-3deg)' }
+    textPosition: { bottom: '40%', left: '20%', fontSize: '1.4rem', transform: 'rotate(-3deg)' }
   },
 
   // Page 7 - Photo Collection 3 (Left)
@@ -165,8 +173,8 @@ export const pages = [
         position: { top: '20%', left: '15%' }
       }
     ],
-    text: '...Danach wurden doch noch zwei Bäckereien überfallen',
-    textPosition: { bottom: '20%', left: '12%', fontSize: '1.4rem', transform: 'rotate(3deg)' }
+    text: '...Danach wurden doch noch zwei Bäckereien überfallen und etliche Bejgli weggeputzt.',
+    textPosition: { bottom: '10%', left: '12%', fontSize: '1.4rem', transform: 'rotate(3deg)' }
 
   },
 
@@ -205,10 +213,18 @@ export const pages = [
         rotation: -2,
         size: 'large',
         tapeVariant: 1,
-        position: { top: '12%', left: '12%' }
+        position: { top: '2%', left: '12%' }
+      }, 
+       {
+        image: '/assets/muedi.png',
+        caption: 'So müdi nach dem ganzen Essen...',
+        rotation: 12,
+        size: 'large',
+        tapeVariant: 2,
+        position: { bottom: '2%', left: '12%' }
       }
     ],
-    text: 'Was dann geschieht, wissen wir beide nur zu gut...',
+    text: '',
     textPosition: { bottom: '30%', right: '5%', fontSize: '1.4rem', transform: 'rotate(-3deg)' }
   },
 

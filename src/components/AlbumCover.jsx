@@ -15,6 +15,44 @@ function AlbumCover({ onOpen }) {
         whileTap={{ scale: 0.98 }}
         onClick={onOpen}
       >
+        {/* Christmas lights at the top */}
+        <motion.img
+          src="/assets/lightss.png"
+          alt="Christmas lights"
+          className="christmas-lights"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.8 }}
+        />
+
+        {/* Decoration in upper right corner */}
+        <motion.img
+          src="/assets/deco.png"
+          alt="Decoration"
+          className="corner-deco"
+          initial={{ opacity: 0, scale: 0.8, rotate: -10 }}
+          animate={{ opacity: 1, scale: 1, rotate: 0 }}
+          transition={{ delay: 0.7, duration: 0.8 }}
+        />
+
+        {/* Boot in upper right corner */}
+        <motion.img
+          src="/assets/boot.png"
+          alt="Boot"
+          className="corner-boot"
+          initial={{ opacity: 0, scale: 0.8, rotate: 10 }}
+          animate={{ opacity: 1, scale: 1, rotate: 0 }}
+          transition={{ delay: 0.8, duration: 0.8 }}
+        />
+        <motion.img
+          src="/assets/candy.png"
+          alt="Boot"
+          className="corner-candy"
+          initial={{ opacity: 0, scale: 0.8, rotate: 10 }}
+          animate={{ opacity: 1, scale: 1, rotate: 0 }}
+          transition={{ delay: 0.8, duration: 0.8 }}
+        />
+
         <div className="album-cover-content">
           <motion.h1
             className="album-title handwriting"
@@ -53,6 +91,16 @@ function AlbumCover({ onOpen }) {
             Klick zum Öffnen
           </motion.p>
         </div>
+
+        {/* Christmas lights at the bottom */}
+        <motion.img
+          src="/assets/lights1.png"
+          alt="Christmas lights bottom"
+          className="christmas-lights-bottom"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.8 }}
+        />
 
         {/* Corner decorations */}
         <div className="corner-decoration top-left"></div>
