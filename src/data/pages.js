@@ -124,8 +124,8 @@ export const pages = [
         tapeVariant: 1,
         position: { top: '1%', left: '10%' }
       },{
-        image: '/assets/15.png',
-        caption: '1h, 10kg Obst und 2 Wasserkästen später',
+        image: '/assets/market.png',
+        caption: '1h, 10kg Obst und 10L Wasser später',
         rotation: 10,
         size: 'large',
         tapeVariant: 2,
