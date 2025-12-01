@@ -36,7 +36,7 @@
 
 .christmas-lights-bottom {
   position: absolute;
-  bottom: -175px;
+  bottom: 150px;
   left: 0;
   width: 100%;
   height: auto;
@@ -58,7 +58,7 @@
 
 .corner-boot {
   position: absolute;
-  top: -150px;
+  bottom: 150px;
   right: -30px;
   width: 1px;
   height: auto;
