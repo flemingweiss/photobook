@@ -21,14 +21,14 @@ export const pages = [
         image: '/assets/coffee.png',
         rotation: 15,
         width: '80px',
-        tapeVariant: 1,
+        tapeVariant: 0,
         position: { bottom: '15%', left: '75%' }
       },
       {
         image: '/assets/cake.webp',
         rotation: -15,
         width: '180px',
-        tapeVariant: 1,
+        tapeVariant: 0,
         position: { top: '7%', right: '55%' }
       },
       {
@@ -57,7 +57,7 @@ export const pages = [
       }
     ],
     text: 'Nach der Landung muss erstmal ganz schnell ein Siebträger Cappuccino getrunken werden.',
-    textPosition: { bottom: '5%', left: '15%', fontSize: '1.8rem', transform: 'rotate(3deg)' }
+    textPosition: { bottom: '1%', left: '15%', fontSize: '1.8rem', transform: 'rotate(3deg)' }
 
   },
 
@@ -79,7 +79,7 @@ export const pages = [
         rotation: 10,
         size: 'large',
         tapeVariant: 1,
-        position: { bottom: '5%', right: '4%' }
+        position: { bottom: '1%', right: '4%' }
       }
     ],
     text: 'Wo wir hier wohl stehen..?',
@@ -109,7 +109,7 @@ export const pages = [
       }
     ],
     text: '"Bubchen, lebst du noch? Ich höre ja gar nichts von euch."',
-    textPosition: { bottom: '35%', left: '15%', fontSize: '1.4rem', transform: 'rotate(2deg)' }
+    textPosition: { bottom: '30%', left: '15%', fontSize: '1.4rem', transform: 'rotate(2deg)' }
   },
 
   // Page 5 - Photo Collection 2 (Left)
@@ -122,14 +122,14 @@ export const pages = [
         rotation: -4,
         size: 'large',
         tapeVariant: 1,
-        position: { top: '1%', left: '10%' }
+        position: { top: '-5%', left: '10%' }
       },{
         image: '/assets/market.png',
         caption: '1h, 10kg Obst und 10L Wasser später',
         rotation: 10,
         size: 'large',
         tapeVariant: 2,
-        position: { bottom: '2%', right: '5%' }
+        position: { bottom: '-2%', right: '5%' }
       },
     ]
   },
@@ -213,7 +213,7 @@ export const pages = [
         rotation: -2,
         size: 'large',
         tapeVariant: 1,
-        position: { top: '2%', left: '12%' }
+        position: { top: '-5%', left: '12%' }
       }, 
        {
         image: '/assets/muedi.png',
