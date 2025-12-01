@@ -37,16 +37,18 @@ function Polaroid({ image, caption, rotation = 0, size = 'medium', tapeVariant =
         transition: { duration: 0.3 }
       }}
     >
-      {/* Tape decoration */}
-      <img
-        src={`/assets/tape-${tapeVariant}.svg`}
-        className="polaroid-tape"
-        style={{
-          ...tapePos,
-          rotate: tapePos.rotation
-        }}
-        alt=""
-      />
+      {/* Tape decoration - only show if tapeVariant is not 0 */}
+      {tapeVariant !== 0 && (
+        <img
+          src={`/assets/tape-${tapeVariant}.svg`}
+          className="polaroid-tape"
+          style={{
+            ...tapePos,
+            rotate: tapePos.rotation
+          }}
+          alt=""
+        />
+      )}
 
       <div className="polaroid">
         <div className="polaroid-image">

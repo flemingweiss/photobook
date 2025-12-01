@@ -17,7 +17,7 @@ function AlbumCover({ onOpen }) {
       >
         {/* Christmas lights at the top */}
         <motion.img
-          src="/assets/Lights1.png"
+          src="/assets/Lights.png"
           alt="Christmas lights"
           className="christmas-lights"
           initial={{ opacity: 0, y: -20 }}

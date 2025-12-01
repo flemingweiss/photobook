@@ -21,14 +21,14 @@ export const pages = [
         image: '/assets/coffee.png',
         rotation: 15,
         width: '80px',
-        tapeVariant: 0,
+        tapeVariant: 1,
         position: { bottom: '15%', left: '75%' }
       },
       {
         image: '/assets/cake.webp',
         rotation: -15,
         width: '180px',
-        tapeVariant: 0,
+        tapeVariant: 1,
         position: { top: '7%', right: '55%' }
       },
       {

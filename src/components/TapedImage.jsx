@@ -31,16 +31,18 @@ function TapedImage({ image, rotation = 0, width = '280px', tapeVariant = 1 }) {
         transition: { duration: 0.3 }
       }}
     >
-      {/* Tape decoration */}
-      <img
-        src={`/assets/tape-${tapeVariant}.svg`}
-        className="taped-image-tape"
-        style={{
-          ...tapePos,
-          rotate: tapePos.rotation
-        }}
-        alt=""
-      />
+      {/* Tape decoration - only show if tapeVariant is not 0 */}
+      {tapeVariant !== 0 && (
+        <img
+          src={`/assets/tape-${tapeVariant}.svg`}
+          className="taped-image-tape"
+          style={{
+            ...tapePos,
+            rotate: tapePos.rotation
+          }}
+          alt=""
+        />
+      )}
 
       <div className="taped-image">
         <img src={image} alt="" />
