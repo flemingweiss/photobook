@@ -11,28 +11,28 @@ export const pages = [
   ],
    tapedImages: [
       {
-        image: '/public/assets/airplane.png',
+        image: '/assets/airplane.png',
         rotation: -1,
         width: '180px',
         tapeVariant: 1,
         position: { bottom: '5%', left: '0%' }
       },
        {
-        image: '/public/assets/coffee.png',
+        image: '/assets/coffee.png',
         rotation: 15,
         width: '80px',
         tapeVariant: 0,
         position: { bottom: '15%', left: '75%' }
       },
       {
-        image: '/public/assets/cake.webp',
+        image: '/assets/cake.webp',
         rotation: -15,
         width: '180px',
         tapeVariant: 0,
         position: { top: '7%', right: '55%' }
       },
       {
-        image: '/public/assets/train.png',
+        image: '/assets/train.png',
         rotation: 0,
         width: '180px',
         tapeVariant: 1,
@@ -48,7 +48,7 @@ export const pages = [
     title: '',
     polaroids: [
       {
-        image: '/public/assets/1.png',
+        image: '/assets/1.png',
         caption: '"Das da hab ich auf TikTok gesehen!"',
         rotation: 3,
         size: 'large',
@@ -66,7 +66,7 @@ export const pages = [
     title: '',
     polaroids: [
       {
-        image: '/public/assets/2.png',
+        image: '/assets/2.png',
         caption: 'Die sollte "Löwenbrücke" heißen',
         rotation: -5,
         size: 'medium',
@@ -74,7 +74,7 @@ export const pages = [
         position: { top: '5%', left: '-1%' }
       },
       {
-        image: '/public/assets/3.png',
+        image: '/assets/3.png',
         caption: 'Hmmm Paprika',
         rotation: 10,
         size: 'large',
@@ -91,7 +91,7 @@ export const pages = [
     title: '',
     polaroids: [
       {
-        image: '/public/assets/4.png',
+        image: '/assets/4.png',
         caption: 'Damit die Eltern Ruhe geben',
         rotation: 2,
         size: 'large',
@@ -101,7 +101,7 @@ export const pages = [
     ],
     tapedImages: [
       {
-        image: '/public/assets/langos.png',
+        image: '/assets/langos.png',
         rotation: -15,
         width: '150px',
         tapeVariant: 1,
@@ -117,14 +117,14 @@ export const pages = [
     title: '',
     polaroids: [
       {
-        image: '/public/assets/14.png',
+        image: '/assets/14.png',
         caption: '"Fleming, komm wir kaufen Wassermelone"',
         rotation: -4,
         size: 'large',
         tapeVariant: 1,
         position: { top: '1%', left: '10%' }
       },{
-        image: '/public/assets/market.png',
+        image: '/assets/market.png',
         caption: '1h, 10kg Obst und 10L Wasser später',
         rotation: 10,
         size: 'large',
@@ -140,7 +140,7 @@ export const pages = [
     polaroids: [
 
       {
-        image: '/public/assets/3_2.png',
+        image: '/assets/3_2.png',
         caption: 'Auf den Schock erstmal etwas essen!',
         rotation: -3,
         size: 'large',
@@ -148,7 +148,7 @@ export const pages = [
         position: { bottom: '55%', left: '10%' }
       },
       {
-        image: '/public/assets/water.png',
+        image: '/assets/water.png',
         caption: '"Denkst du hier gibts Seemonster?"',
         rotation: 10,
         size: 'medium',
@@ -165,7 +165,7 @@ export const pages = [
     title: '',
     polaroids: [
       {
-        image: '/public/assets/16.png',
+        image: '/assets/16.png',
         caption: 'Aber nur ein Stück Kuchen...',
         rotation: 3,
         size: 'large',
@@ -183,7 +183,7 @@ export const pages = [
     title: '',
     polaroids: [
       {
-        image: '/public/assets/17.png',
+        image: '/assets/17.png',
         caption: 'Prost!',
         rotation: -4,
         size: 'medium',
@@ -191,7 +191,7 @@ export const pages = [
         position: { top: '1%', left: '18%' }
       },
       {
-        image: '/public/assets/18.png',
+        image: '/assets/18.png',
         caption: 'Och nö, schon wieder Essen?',
         rotation: -10,
         size: 'large',
@@ -208,7 +208,7 @@ export const pages = [
     title: '',
     polaroids: [
       {
-        image: '/public/assets/19.png',
+        image: '/assets/19.png',
         caption: 'Dooooch, ich vertrag noch einen, miau!',
         rotation: -2,
         size: 'large',
@@ -216,7 +216,7 @@ export const pages = [
         position: { top: '2%', left: '12%' }
       }, 
        {
-        image: '/public/assets/muedi.png',
+        image: '/assets/muedi.png',
         caption: 'So müdi nach dem ganzen Essen...',
         rotation: 12,
         size: 'large',
@@ -237,84 +237,84 @@ export const pages = [
     textPosition: { top: '40%', left: '5%', fontSize: '1.6rem', textAlign: 'center' },
     tapedImages: [
       {
-        image: '/public/assets/tram ticket.png',
+        image: '/assets/tram ticket.png',
         rotation: 15,
         width: '150px',
         tapeVariant: 2,
         position: { top: '0%', left: '50%' }
       }, 
       {
-        image: '/public/assets/bridge.png',
+        image: '/assets/bridge.png',
         rotation: 65,
         width: '150px',
         tapeVariant: 0,
         position: { bottom: '15%', left: '60%' }
       }, 
       {
-        image: '/public/assets/gulasch.png',
+        image: '/assets/gulasch.png',
         rotation: -13,
         width: '100px',
         tapeVariant: 0,
         position: { bottom: '-3%', left: '-5%' }
       },
       {
-        image: '/public/assets/pool.png',
+        image: '/assets/pool.png',
         rotation: -3,
         width: '120px',
         tapeVariant: 0,
         position: { top: '0%', left: '-10%' }
       },
       {
-        image: '/public/assets/budapest.png',
+        image: '/assets/budapest.png',
         rotation: 1,
         width: '180px',
         tapeVariant: 0,
         position: { top: '30%', left: '10%' }
       },
       {
-        image: '/public/assets/hungary.png',
+        image: '/assets/hungary.png',
         rotation: 1,
         width: '180px',
         tapeVariant: 0,
         position: { top: '62%', left: '10%' }
       },
       {
-        image: '/public/assets/pap.png',
+        image: '/assets/pap.png',
         rotation: 1,
         width: '80px',
         tapeVariant: 0,
         position: { top: '15%', left: '20%' }
       },
       {
-        image: '/public/assets/wine.png',
+        image: '/assets/wine.png',
         rotation: -25,
         width: '60px',
         tapeVariant: 0,
         position: { top: '70%', left: '0%' }
       },
       {
-        image: '/public/assets/wurst.png',
+        image: '/assets/wurst.png',
         rotation: 15,
         width: '60px',
         tapeVariant: 0,
         position: { top: '18%', left: '55%' }
       },
       {
-        image: '/public/assets/tram.png',
+        image: '/assets/tram.png',
         rotation: 90,
         width: '180px',
         tapeVariant: 0,
         position: { top: '48%', left: '65%' }
       },
       {
-        image: '/public/assets/idk.png',
+        image: '/assets/idk.png',
         rotation: 35,
         width: '90px',
         tapeVariant: 0,
         position: { top: '85%', left: '55%' }
       },
       {
-        image: '/public/assets/bar.png',
+        image: '/assets/bar.png',
         rotation: 15,
         width: '90px',
         tapeVariant: 0,
