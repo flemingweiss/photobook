@@ -45,9 +45,18 @@ function AlbumCover({ onOpen }) {
           transition={{ delay: 0.8, duration: 0.8 }}
         />
         <motion.img
-          src="/assets/boot.png"
+          src="/assets/candy.png"
           alt="Boot"
           className="corner-candy"
+          initial={{ opacity: 0, scale: 0.8, rotate: 10 }}
+          animate={{ opacity: 1, scale: 1, rotate: 0 }}
+          transition={{ delay: 0.8, duration: 0.8 }}
+        /> 
+        
+        <motion.img
+          src="/assets/kugel1.png"
+          alt="Boot"
+          className="corner-kugel"
           initial={{ opacity: 0, scale: 0.8, rotate: 10 }}
           animate={{ opacity: 1, scale: 1, rotate: 0 }}
           transition={{ delay: 0.8, duration: 0.8 }}
