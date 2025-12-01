@@ -4,15 +4,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--bg-wood) repeat;
-  background-color: var(--bg-main);
+  background: url('./public/assets/wood-texture.svg') repeat;
+  background-color: #2c1810;
   position: relative;
   overflow: hidden;
-  transition: background-color 0.3s ease;
 }
 
-/* Light mode fallback */
-body.light .app::before {
+/* Fallback if texture doesn't load */
+.app::before {
   content: '';
   position: absolute;
   top: 0;
@@ -24,11 +23,7 @@ body.light .app::before {
   opacity: 0;
 }
 
-/* Dark mode: Simple black background */
-body.dark .app {
-  background: #0a0a0a;
-}
-
-body.dark .app::before {
-  display: none;
+/* Show fallback only if texture fails to load */
+.app:not(:has(img))::before {
+  opacity: 1;
 }

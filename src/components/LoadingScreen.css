@@ -14,11 +14,6 @@
   border-radius: 20px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
   min-width: 300px;
-  transition: background 0.3s ease;
-}
-
-body.dark .loading-content {
-  background: rgba(30, 30, 30, 0.95);
 }
 
 .suitcase {
@@ -30,11 +25,6 @@ body.dark .loading-content {
   font-size: 2.5rem;
   margin-bottom: 2rem;
   color: #1a237e;
-  transition: color 0.3s ease;
-}
-
-body.dark .loading-text {
-  color: #e0e0e0;
 }
 
 .progress-bar-container {
@@ -56,11 +46,6 @@ body.dark .loading-text {
   font-size: 1rem;
   color: #000000;
   font-style: italic;
-  transition: color 0.3s ease;
-}
-
-body.dark .loading-subtext {
-  color: #c0c0c0;
 }
 
 @media (max-width: 768px) {

@@ -20,12 +20,11 @@
 .album-page {
   width: 500px;
   height: 700px;
-  background: var(--page-texture) center/cover;
-  background-color: var(--page-bg);
+  background: url('../textures/paper-texture.svg') center/cover;
+  background-color: #f4e8d8;
   position: relative;
   padding: 40px;
   overflow: hidden;
-  transition: background-color 0.3s ease;
 }
 
 .album-spine {
@@ -63,9 +62,8 @@
   position: absolute;
   font-size: 1.4rem;
   line-height: 1.6;
-  color: var(--text-handwriting);
+  color: #5b5b5b;
   max-width: 80%;
-  transition: color 0.3s ease;
 }
 
 .page-decoration {
@@ -79,10 +77,9 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 1.8rem;
-  color: var(--text-title);
+  color: #4a4a4a;
   text-align: center;
   z-index: 10;
-  transition: color 0.3s ease;
 }
 
 /* Page corners fold effect */
@@ -99,22 +96,12 @@
   right: 0;
   border-width: 0 0 20px 20px;
   border-color: transparent transparent #d4c4a8 transparent;
-  transition: border-color 0.3s ease;
-}
-
-body.dark .left-page::before {
-  border-color: transparent transparent #0d0d0d transparent;
 }
 
 .right-page::before {
   left: 0;
   border-width: 0 20px 20px 0;
   border-color: transparent #d4c4a8 transparent transparent;
-  transition: border-color 0.3s ease;
-}
-
-body.dark .right-page::before {
-  border-color: transparent #0d0d0d transparent transparent;
 }
 
 /* Responsive Design */
