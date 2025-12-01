@@ -39,7 +39,7 @@ export const pages = [
         position: { bottom: '70%', left: '40%' }
       }
     ],
-    text: 'Zehn Hinweise, eine Reise...\n\n Erkennst du wohin es geht?',
+    text: 'Zehn Hinweise, eine Reise...\n\n Erkennst du, wohin es geht?',
     textPosition: { top: '35%', left: '15%', fontSize: '2rem', textAlign: 'center' }
   },
 
