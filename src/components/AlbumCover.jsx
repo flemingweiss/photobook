@@ -17,7 +17,7 @@ function AlbumCover({ onOpen }) {
       >
         {/* Christmas lights at the top */}
         <motion.img
-          src="/assets/lightss.png"
+          src="/assets/Lights1.png"
           alt="Christmas lights"
           className="christmas-lights"
           initial={{ opacity: 0, y: -20 }}
@@ -45,7 +45,7 @@ function AlbumCover({ onOpen }) {
           transition={{ delay: 0.8, duration: 0.8 }}
         />
         <motion.img
-          src="/assets/candy.png"
+          src="/assets/boot.png"
           alt="Boot"
           className="corner-candy"
           initial={{ opacity: 0, scale: 0.8, rotate: 10 }}
@@ -94,7 +94,7 @@ function AlbumCover({ onOpen }) {
 
         {/* Christmas lights at the bottom */}
         <motion.img
-          src="/assets/lights1.png"
+          src="/assets/Lights2.png"
           alt="Christmas lights bottom"
           className="christmas-lights-bottom"
           initial={{ opacity: 0, y: 20 }}
