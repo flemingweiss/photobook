@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('./assets/wood-texture.svg') repeat;
+  background: url('./public/assets/wood-texture.svg') repeat;
   background-color: #2c1810;
   position: relative;
   overflow: hidden;
