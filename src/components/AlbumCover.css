@@ -36,7 +36,7 @@
 
 .christmas-lights-bottom {
   position: absolute;
-  bottom: 150px;
+  bottom: 70px;
   left: 0;
   width: 100%;
   height: auto;
@@ -56,9 +56,9 @@
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
 }
 
-.corner-boot {
+.corner-candy {
   position: absolute;
-  bottom: 150px;
+  bottom: 70px;
   right: -30px;
   width: 1px;
   height: auto;
@@ -67,7 +67,7 @@
   rotate: +25deg;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
 }
-.corner-candy {
+.corner-boot {
   position: absolute;
   top: 520px;
   right: -30px;
